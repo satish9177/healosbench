@@ -84,8 +84,32 @@ cache_read_input_tokens would be tracked per run and surfaced
 in the dashboard. File-based caching achieves the same cost 
 reduction goal by skipping repeat API calls entirely.
 
-## API Note
+## API Provider Note
 
-Anthropic API billing could not be completed during the assessment 
-window. Google Gemini Flash was used as a drop-in replacement. 
-The extractor, evaluator, runner, and cache are fully model-agnostic.
+During the assessment window, I was unable to use the Anthropic API 
+due to a billing constraint — the purchase/upgrade button on the 
+Anthropic console was disabled for my account, preventing me from 
+adding credits. This appeared to be a regional payment restriction 
+(India-based account).
+
+As a pragmatic engineering decision, I substituted Google Gemini Flash 
+(gemini-1.5-flash) as a drop-in replacement. This was a deliberate 
+choice, not a shortcut — the goal of the assessment is to evaluate 
+the harness design, not which LLM vendor is used.
+
+The substitution required minimal changes:
+- Replaced @anthropic-ai/sdk with @google/generative-ai
+- Used responseMimeType: "application/json" for structured output
+  (equivalent to Anthropic tool use for schema enforcement)
+- Kept all retry logic, concurrency, caching, and evaluation 
+  code completely unchanged
+
+The entire system is model-agnostic. Switching back to Claude Haiku 
+would require changing approximately 10 lines in extractor.ts:
+- Swap the SDK import
+- Replace generationConfig JSON mode with Anthropic tool use
+- Add cache_control headers for prompt caching
+- Track cache_read_input_tokens in run summary
+
+All evaluation results (50 cases × 3 strategies) are real LLM 
+outputs from Gemini Flash — not mocked or simulated.
