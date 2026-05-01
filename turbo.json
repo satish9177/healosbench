@@ -17,6 +17,12 @@
       "cache": false,
       "persistent": true
     },
+    "eval:mock": {
+      "cache": false
+    },
+    "eval": {
+      "cache": false
+    },
     "db:push": {
       "cache": false
     },

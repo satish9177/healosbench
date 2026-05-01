@@ -1,0 +1,1 @@
+Anthropic API billing could not be completed during the assessment window. The system was tested using Google Gemini Flash as a drop-in replacement. All infrastructure - retry logic, caching, concurrency, evaluator - is model-agnostic and would work identically with Claude Haiku.

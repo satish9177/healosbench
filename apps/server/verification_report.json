@@ -1,0 +1,1130 @@
+{
+  "datasetStatus": "OK",
+  "pipelineStatus": "OK",
+  "cacheStatus": "OK",
+  "cacheHits": 150,
+  "cacheWrites": 0,
+  "top3": [
+    {
+      "caseId": "case_001",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_001",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_002",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    }
+  ],
+  "bottom3": [
+    {
+      "caseId": "case_041",
+      "strategy": "zero_shot",
+      "overallScore": 0.641025641025641,
+      "finalScore": 0.621025641025641,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_001",
+      "strategy": "few_shot",
+      "overallScore": 0.6333333333333333,
+      "finalScore": 0.6333333333333333,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_048",
+      "strategy": "zero_shot",
+      "overallScore": 0.6481481481481481,
+      "finalScore": 0.6481481481481481,
+      "hallucinationPenalty": 0
+    }
+  ],
+  "strategySummaries": [
+    {
+      "strategy": "zero_shot",
+      "avgOverallScore": 0.889667555354862,
+      "avgFinalScore": 0.8808675553548617,
+      "avgHallucinationPenalty": 0.008800000000000007,
+      "count": 50
+    },
+    {
+      "strategy": "few_shot",
+      "avgOverallScore": 0.9376734594381653,
+      "avgFinalScore": 0.9348734594381652,
+      "avgHallucinationPenalty": 0.0028000000000000026,
+      "count": 50
+    },
+    {
+      "strategy": "cot",
+      "avgOverallScore": 0.9867869167869168,
+      "avgFinalScore": 0.9863869167869168,
+      "avgHallucinationPenalty": 0.00040000000000000034,
+      "count": 50
+    }
+  ],
+  "perCaseResults": [
+    {
+      "caseId": "case_001",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_001",
+      "strategy": "few_shot",
+      "overallScore": 0.6333333333333333,
+      "finalScore": 0.6333333333333333,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_001",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_002",
+      "strategy": "zero_shot",
+      "overallScore": 0.7674185463659148,
+      "finalScore": 0.7474185463659148,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_002",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_002",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_003",
+      "strategy": "zero_shot",
+      "overallScore": 0.9538461538461539,
+      "finalScore": 0.9138461538461539,
+      "hallucinationPenalty": 0.040000000000000036
+    },
+    {
+      "caseId": "case_003",
+      "strategy": "few_shot",
+      "overallScore": 0.9871794871794872,
+      "finalScore": 0.9671794871794872,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_003",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_004",
+      "strategy": "zero_shot",
+      "overallScore": 0.9444444444444443,
+      "finalScore": 0.9444444444444443,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_004",
+      "strategy": "few_shot",
+      "overallScore": 0.9901960784313726,
+      "finalScore": 0.9901960784313726,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_004",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_005",
+      "strategy": "zero_shot",
+      "overallScore": 0.7333333333333334,
+      "finalScore": 0.7333333333333334,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_005",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_005",
+      "strategy": "cot",
+      "overallScore": 0.9888888888888889,
+      "finalScore": 0.9888888888888889,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_006",
+      "strategy": "zero_shot",
+      "overallScore": 0.9663865546218487,
+      "finalScore": 0.9463865546218487,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_006",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_006",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_007",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_007",
+      "strategy": "few_shot",
+      "overallScore": 0.9402116402116403,
+      "finalScore": 0.9202116402116403,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_007",
+      "strategy": "cot",
+      "overallScore": 0.9587301587301588,
+      "finalScore": 0.9387301587301587,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_008",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_008",
+      "strategy": "few_shot",
+      "overallScore": 0.8095238095238096,
+      "finalScore": 0.8095238095238096,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_008",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_009",
+      "strategy": "zero_shot",
+      "overallScore": 0.9316239316239315,
+      "finalScore": 0.9116239316239315,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_009",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_009",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_010",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_010",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_010",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_011",
+      "strategy": "zero_shot",
+      "overallScore": 0.7777777777777777,
+      "finalScore": 0.7777777777777777,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_011",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_011",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_012",
+      "strategy": "zero_shot",
+      "overallScore": 0.7182539682539684,
+      "finalScore": 0.6982539682539683,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_012",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_012",
+      "strategy": "cot",
+      "overallScore": 0.9920634920634921,
+      "finalScore": 0.9920634920634921,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_013",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_013",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_013",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_014",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_014",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_014",
+      "strategy": "cot",
+      "overallScore": 0.9888888888888889,
+      "finalScore": 0.9888888888888889,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_015",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_015",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_015",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_016",
+      "strategy": "zero_shot",
+      "overallScore": 0.953968253968254,
+      "finalScore": 0.933968253968254,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_016",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_016",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_017",
+      "strategy": "zero_shot",
+      "overallScore": 0.9111111111111111,
+      "finalScore": 0.8711111111111111,
+      "hallucinationPenalty": 0.040000000000000036
+    },
+    {
+      "caseId": "case_017",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_017",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_018",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_018",
+      "strategy": "few_shot",
+      "overallScore": 0.9761904761904763,
+      "finalScore": 0.9761904761904763,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_018",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_019",
+      "strategy": "zero_shot",
+      "overallScore": 0.9148148148148149,
+      "finalScore": 0.8748148148148148,
+      "hallucinationPenalty": 0.040000000000000036
+    },
+    {
+      "caseId": "case_019",
+      "strategy": "few_shot",
+      "overallScore": 0.9481481481481482,
+      "finalScore": 0.9081481481481481,
+      "hallucinationPenalty": 0.040000000000000036
+    },
+    {
+      "caseId": "case_019",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_020",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_020",
+      "strategy": "few_shot",
+      "overallScore": 0.8095238095238096,
+      "finalScore": 0.7895238095238096,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_020",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_021",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_021",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_021",
+      "strategy": "cot",
+      "overallScore": 0.8333333333333334,
+      "finalScore": 0.8333333333333334,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_022",
+      "strategy": "zero_shot",
+      "overallScore": 0.7626262626262627,
+      "finalScore": 0.7626262626262627,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_022",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_022",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_023",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_023",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_023",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_024",
+      "strategy": "zero_shot",
+      "overallScore": 0.9346405228758169,
+      "finalScore": 0.9146405228758169,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_024",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_024",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_025",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_025",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_025",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_026",
+      "strategy": "zero_shot",
+      "overallScore": 0.8333333333333334,
+      "finalScore": 0.8333333333333334,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_026",
+      "strategy": "few_shot",
+      "overallScore": 0.9206349206349206,
+      "finalScore": 0.9206349206349206,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_026",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_027",
+      "strategy": "zero_shot",
+      "overallScore": 0.9292929292929294,
+      "finalScore": 0.8892929292929294,
+      "hallucinationPenalty": 0.040000000000000036
+    },
+    {
+      "caseId": "case_027",
+      "strategy": "few_shot",
+      "overallScore": 0.961038961038961,
+      "finalScore": 0.941038961038961,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_027",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_028",
+      "strategy": "zero_shot",
+      "overallScore": 0.6666666666666666,
+      "finalScore": 0.6666666666666666,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_028",
+      "strategy": "few_shot",
+      "overallScore": 0.9814814814814815,
+      "finalScore": 0.9614814814814815,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_028",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_029",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_029",
+      "strategy": "few_shot",
+      "overallScore": 0.9444444444444443,
+      "finalScore": 0.9444444444444443,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_029",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_030",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_030",
+      "strategy": "few_shot",
+      "overallScore": 0.9686609686609686,
+      "finalScore": 0.9686609686609686,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_030",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_031",
+      "strategy": "zero_shot",
+      "overallScore": 0.7515151515151515,
+      "finalScore": 0.7115151515151514,
+      "hallucinationPenalty": 0.040000000000000036
+    },
+    {
+      "caseId": "case_031",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_031",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_032",
+      "strategy": "zero_shot",
+      "overallScore": 0.7962962962962963,
+      "finalScore": 0.7962962962962963,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_032",
+      "strategy": "few_shot",
+      "overallScore": 0.9703703703703704,
+      "finalScore": 0.9703703703703704,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_032",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_033",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_033",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_033",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_034",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_034",
+      "strategy": "few_shot",
+      "overallScore": 0.8148148148148149,
+      "finalScore": 0.8148148148148149,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_034",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_035",
+      "strategy": "zero_shot",
+      "overallScore": 0.7592592592592592,
+      "finalScore": 0.7592592592592592,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_035",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_035",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_036",
+      "strategy": "zero_shot",
+      "overallScore": 0.7777777777777777,
+      "finalScore": 0.7777777777777777,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_036",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_036",
+      "strategy": "cot",
+      "overallScore": 0.8148148148148149,
+      "finalScore": 0.8148148148148149,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_037",
+      "strategy": "zero_shot",
+      "overallScore": 0.9316239316239315,
+      "finalScore": 0.8916239316239315,
+      "hallucinationPenalty": 0.040000000000000036
+    },
+    {
+      "caseId": "case_037",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_037",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_038",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_038",
+      "strategy": "few_shot",
+      "overallScore": 0.8333333333333334,
+      "finalScore": 0.8333333333333334,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_038",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_039",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_039",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_039",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_040",
+      "strategy": "zero_shot",
+      "overallScore": 0.6481481481481481,
+      "finalScore": 0.6481481481481481,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_040",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_040",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_041",
+      "strategy": "zero_shot",
+      "overallScore": 0.641025641025641,
+      "finalScore": 0.621025641025641,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_041",
+      "strategy": "few_shot",
+      "overallScore": 0.8205128205128206,
+      "finalScore": 0.8205128205128206,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_041",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_042",
+      "strategy": "zero_shot",
+      "overallScore": 0.8333333333333334,
+      "finalScore": 0.8333333333333334,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_042",
+      "strategy": "few_shot",
+      "overallScore": 0.8333333333333334,
+      "finalScore": 0.8333333333333334,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_042",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_043",
+      "strategy": "zero_shot",
+      "overallScore": 0.6666666666666666,
+      "finalScore": 0.6666666666666666,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_043",
+      "strategy": "few_shot",
+      "overallScore": 0.6481481481481481,
+      "finalScore": 0.6481481481481481,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_043",
+      "strategy": "cot",
+      "overallScore": 0.8333333333333334,
+      "finalScore": 0.8333333333333334,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_044",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_044",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_044",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_045",
+      "strategy": "zero_shot",
+      "overallScore": 0.8333333333333334,
+      "finalScore": 0.8333333333333334,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_045",
+      "strategy": "few_shot",
+      "overallScore": 0.6666666666666666,
+      "finalScore": 0.6666666666666666,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_045",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_046",
+      "strategy": "zero_shot",
+      "overallScore": 0.7610389610389611,
+      "finalScore": 0.721038961038961,
+      "hallucinationPenalty": 0.040000000000000036
+    },
+    {
+      "caseId": "case_046",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_046",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_047",
+      "strategy": "zero_shot",
+      "overallScore": 0.9578947368421052,
+      "finalScore": 0.9378947368421052,
+      "hallucinationPenalty": 0.020000000000000018
+    },
+    {
+      "caseId": "case_047",
+      "strategy": "few_shot",
+      "overallScore": 0.7592592592592592,
+      "finalScore": 0.7592592592592592,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_047",
+      "strategy": "cot",
+      "overallScore": 0.9444444444444443,
+      "finalScore": 0.9444444444444443,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_048",
+      "strategy": "zero_shot",
+      "overallScore": 0.6481481481481481,
+      "finalScore": 0.6481481481481481,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_048",
+      "strategy": "few_shot",
+      "overallScore": 0.6666666666666666,
+      "finalScore": 0.6666666666666666,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_048",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_049",
+      "strategy": "zero_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_049",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_049",
+      "strategy": "cot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_050",
+      "strategy": "zero_shot",
+      "overallScore": 0.7777777777777777,
+      "finalScore": 0.7777777777777777,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_050",
+      "strategy": "few_shot",
+      "overallScore": 1,
+      "finalScore": 1,
+      "hallucinationPenalty": 0
+    },
+    {
+      "caseId": "case_050",
+      "strategy": "cot",
+      "overallScore": 0.9848484848484849,
+      "finalScore": 0.9848484848484849,
+      "hallucinationPenalty": 0
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}

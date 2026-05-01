@@ -7,9 +7,17 @@
     "check-types": "tsc -b",
     "compile": "bun build --compile --minify --sourcemap --bytecode ./src/index.ts --outfile server",
     "dev": "bun run --hot src/index.ts",
-    "start": "bun run dist/index.mjs"
+    "test": "bun test",
+    "start": "bun run dist/index.mjs",
+    "eval": "bun src/runner.ts",
+    "eval:mock": "bun src/runner.ts",
+    "verify:mock": "bun src/verify.mock-pipeline.ts",
+    "extract:test:single": "bun src/extractor.single-test.ts",
+    "extract:test:shape": "bun src/extractor.shape-test.ts",
+    "extract:test:retry": "bun src/extractor.single-test.ts --force-retry"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@test-evals/auth": "workspace:*",
     "@test-evals/db": "workspace:*",
     "@test-evals/env": "workspace:*",

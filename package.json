@@ -27,6 +27,8 @@
     "dev": "turbo dev",
     "build": "turbo build",
     "check-types": "turbo check-types",
+    "eval": "turbo -F server eval --",
+    "eval:mock": "turbo -F server eval:mock",
     "dev:web": "turbo -F web dev",
     "dev:server": "turbo -F server dev",
     "db:push": "turbo -F @test-evals/db db:push",
@@ -35,6 +37,7 @@
     "db:migrate": "turbo -F @test-evals/db db:migrate"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@test-evals/env": "workspace:*",
     "dotenv": "catalog:",
     "zod": "catalog:"
