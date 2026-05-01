@@ -1,0 +1,34 @@
+{
+  "status": "success",
+  "prediction": {
+    "chief_complaint": "right ear pain and fever in toddler ongoing",
+    "vitals": {
+      "bp": null,
+      "hr": 118,
+      "temp_f": 102.6,
+      "spo2": 99
+    },
+    "medications": [
+      {
+        "name": "amoxicillin",
+        "dose": "400 mg",
+        "frequency": "twice a day",
+        "route": "PO"
+      }
+    ],
+    "diagnoses": [],
+    "plan": [
+      "amoxicillin 400 mg by mouth twice a day for 10 days",
+      "return in 48 to 72 hours if not improving or worsening"
+    ],
+    "follow_up": {
+      "interval_days": null,
+      "reason": "return if not improving in 48 to 72 hours"
+    }
+  },
+  "evaluation": {
+    "overallScore": 0.7333333333333334,
+    "finalScore": 0.7333333333333334,
+    "hallucinationPenalty": 0
+  }
+}

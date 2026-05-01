@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "prediction": {
+    "chief_complaint": "sore throat and nasal congestion for four days",
+    "vitals": {
+      "bp": "122/78",
+      "hr": 88,
+      "temp_f": 100.4,
+      "spo2": 98
+    },
+    "medications": [],
+    "diagnoses": [],
+    "plan": [
+      "supportive care with fluids and saline nasal spray",
+      "ibuprofen 400 mg every 6 hours as needed for pain and fever"
+    ],
+    "follow_up": {
+      "interval_days": null,
+      "reason": "return only if symptoms worsen"
+    }
+  },
+  "evaluation": {
+    "overallScore": 0.6333333333333333,
+    "finalScore": 0.6333333333333333,
+    "hallucinationPenalty": 0
+  }
+}

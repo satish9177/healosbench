@@ -1,0 +1,48 @@
+{
+  "status": "success",
+  "prediction": {
+    "chief_complaint": "severe menstrual cramps causing missed work ongoing",
+    "vitals": {
+      "bp": null,
+      "hr": null,
+      "temp_f": null,
+      "spo2": null
+    },
+    "medications": [
+      {
+        "name": "ibuprofen",
+        "dose": "600 mg",
+        "frequency": "every 6 hours with food",
+        "route": "PO"
+      },
+      {
+        "name": "fake_drug",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "route": "PO"
+      }
+    ],
+    "diagnoses": [
+      {
+        "description": "primary dysmenorrhea",
+        "icd10": "N94.4"
+      }
+    ],
+    "plan": [
+      "ibuprofen 600 mg every 6 hours with food, starting a day before period and continuing first 2 to 3 days",
+      "consider combined oral contraceptives if NSAIDs insufficient",
+      "use heat pad",
+      "regular exercise",
+      "message after two cycles to update"
+    ],
+    "follow_up": {
+      "interval_days": null,
+      "reason": "message after two cycles"
+    }
+  },
+  "evaluation": {
+    "overallScore": 0.9316239316239315,
+    "finalScore": 0.8916239316239315,
+    "hallucinationPenalty": 0.040000000000000036
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "prediction": {
+    "chief_complaint": "right knee pain with stiffness, worsening over a year",
+    "vitals": {
+      "bp": null,
+      "hr": null,
+      "temp_f": null,
+      "spo2": null
+    },
+    "medications": [
+      {
+        "name": "acetaminophen",
+        "dose": "1000 mg",
+        "frequency": "three times daily as needed",
+        "route": "PO"
+      }
+    ],
+    "diagnoses": [],
+    "plan": [
+      "acetaminophen 1000 mg three times daily as needed",
+      "topical diclofenac 1% gel four times a day",
+      "physical therapy referral for quadriceps strengthening",
+      "weight loss",
+      "consider intra-articular steroid injection if no relief in 6 weeks"
+    ],
+    "follow_up": {
+      "interval_days": 42,
+      "reason": "knee OA recheck"
+    }
+  },
+  "evaluation": {
+    "overallScore": 0.7626262626262627,
+    "finalScore": 0.7626262626262627,
+    "hallucinationPenalty": 0
+  }
+}

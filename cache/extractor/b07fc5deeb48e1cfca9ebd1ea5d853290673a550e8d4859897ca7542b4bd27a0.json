@@ -1,0 +1,47 @@
+{
+  "status": "success",
+  "prediction": {
+    "chief_complaint": "hyperlipidemia management ongoing",
+    "vitals": {
+      "bp": null,
+      "hr": null,
+      "temp_f": null,
+      "spo2": null
+    },
+    "medications": [
+      {
+        "name": "atorvastatin",
+        "dose": "20 mg",
+        "frequency": "once a day at bedtime",
+        "route": "PO"
+      },
+      {
+        "name": "fake_drug",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "route": "PO"
+      }
+    ],
+    "diagnoses": [
+      {
+        "description": "hyperlipidemia",
+        "icd10": "E78.5"
+      }
+    ],
+    "plan": [
+      "start atorvastatin 20 mg once a day at bedtime",
+      "Mediterranean-style diet with fewer refined carbs",
+      "150 minutes of moderate exercise weekly",
+      "recheck lipid panel and ALT in 3 months"
+    ],
+    "follow_up": {
+      "interval_days": 90,
+      "reason": "lipid and ALT recheck"
+    }
+  },
+  "evaluation": {
+    "overallScore": 0.9111111111111111,
+    "finalScore": 0.8711111111111111,
+    "hallucinationPenalty": 0.040000000000000036
+  }
+}

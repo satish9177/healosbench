@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "prediction": {
+    "chief_complaint": "smoking cessation counseling",
+    "vitals": {
+      "bp": "130/82",
+      "hr": 80,
+      "temp_f": null,
+      "spo2": null
+    },
+    "medications": [],
+    "diagnoses": [
+      {
+        "description": "tobacco use disorder",
+        "icd10": "F17.210"
+      }
+    ],
+    "plan": [
+      "set quit date in next 2 weeks",
+      "start varenicline 1 week before quit date with the titration schedule for 12 weeks total",
+      "take varenicline with food and full glass of water",
+      "enroll in quit-line counseling",
+      "plan substitutes for smoking triggers: gum, walking, deep breaths"
+    ],
+    "follow_up": {
+      "interval_days": 28,
+      "reason": "smoking cessation follow-up"
+    }
+  },
+  "evaluation": {
+    "overallScore": 0.8333333333333334,
+    "finalScore": 0.8333333333333334,
+    "hallucinationPenalty": 0
+  }
+}

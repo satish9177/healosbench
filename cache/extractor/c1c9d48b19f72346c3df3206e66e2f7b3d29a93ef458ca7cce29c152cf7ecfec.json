@@ -1,0 +1,52 @@
+{
+  "status": "success",
+  "prediction": {
+    "chief_complaint": "atrial fibrillation follow-up ongoing",
+    "vitals": {
+      "bp": null,
+      "hr": null,
+      "temp_f": null,
+      "spo2": null
+    },
+    "medications": [
+      {
+        "name": "apixaban",
+        "dose": "5 mg",
+        "frequency": "twice daily",
+        "route": "PO"
+      },
+      {
+        "name": "metoprolol succinate",
+        "dose": "50 mg",
+        "frequency": "once daily",
+        "route": "PO"
+      },
+      {
+        "name": "fake_drug",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "route": "PO"
+      }
+    ],
+    "diagnoses": [
+      {
+        "description": "atrial fibrillation",
+        "icd10": "I48.91"
+      }
+    ],
+    "plan": [
+      "continue apixaban 5 mg twice daily",
+      "continue metoprolol succinate 50 mg once daily",
+      "basic metabolic panel and CBC in 2 months"
+    ],
+    "follow_up": {
+      "interval_days": 180,
+      "reason": "AFib management"
+    }
+  },
+  "evaluation": {
+    "overallScore": 0.9481481481481482,
+    "finalScore": 0.9081481481481481,
+    "hallucinationPenalty": 0.040000000000000036
+  }
+}

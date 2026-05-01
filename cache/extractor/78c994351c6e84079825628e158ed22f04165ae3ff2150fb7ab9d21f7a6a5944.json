@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "prediction": {
+    "chief_complaint": "annual physical",
+    "vitals": {
+      "bp": "122/78",
+      "hr": 70,
+      "temp_f": 98.4,
+      "spo2": 99
+    },
+    "medications": [],
+    "diagnoses": [],
+    "plan": [
+      "lipid panel, fasting glucose, A1c, comprehensive metabolic panel, CBC, TSH",
+      "schedule screening mammogram",
+      "schedule first colonoscopy",
+      "Pap smear today",
+      "tetanus booster today",
+      "continue regular exercise, alcohol under one drink a day"
+    ],
+    "follow_up": {
+      "interval_days": 365,
+      "reason": "next annual physical"
+    }
+  },
+  "evaluation": {
+    "overallScore": 0.8333333333333334,
+    "finalScore": 0.8333333333333334,
+    "hallucinationPenalty": 0
+  }
+}

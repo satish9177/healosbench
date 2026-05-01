@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "prediction": {
+    "chief_complaint": "depression follow-up on fluoxetine ongoing",
+    "vitals": {
+      "bp": "118/74",
+      "hr": 70,
+      "temp_f": null,
+      "spo2": null
+    },
+    "medications": [
+      {
+        "name": "fluoxetine",
+        "dose": "20 mg",
+        "frequency": "once daily",
+        "route": "PO"
+      }
+    ],
+    "diagnoses": [
+      {
+        "description": "major depressive disorder, improving",
+        "icd10": "F32.9"
+      }
+    ],
+    "plan": [
+      "continue weekly therapy",
+      "plan 9 to 12 months of medication once well",
+      "call sooner if mood worsens or thoughts of self-harm"
+    ],
+    "follow_up": {
+      "interval_days": 56,
+      "reason": "depression follow-up"
+    }
+  },
+  "evaluation": {
+    "overallScore": 0.961038961038961,
+    "finalScore": 0.941038961038961,
+    "hallucinationPenalty": 0.020000000000000018
+  }
+}
